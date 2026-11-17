@@ -1,26 +1,62 @@
 <!--Unit 2 Project
 Requirements
-[  ] Two Element Selectors
-[  ] Two ID Selectors
-[  ] Two Class Selectors
-[  ] Three Images
+[x] Two Element Selectors
+[x] Two ID Selectors
+[x] Two Class Selectors
+[x] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include Border Radius CSS Property 
+[ yes ] Feature 1 - Include Border Radius CSS Property 
 [ no ] Feature 2 - Include a Static Background Image
 [ no ] Feature 3 - Include An Animated Background Color Change
 [ no ] Feature 4 - Embed YouTube Video 
 [ no ] Feature 5 - Include Border CSS Property 
 -->
-    
-<!DOCTYPE HTML>
+
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Unit 2 Project!</title>
+        <title>Guide to Shanghai</title>
+        <style>
+            body {
+                background-color: lightblue;
+            }
+            h1 {
+                color: darkblue;
+            }
+            #main-title {
+                text-align: center;
+            }
+            #activities {
+                color: navy;
+            }
+            .guide-image {
+                width: 250px;
+                height: auto;
+                border-radius: 8px;
+            }
+            .food-image {
+                margin: 8px;
+            }
+        </style>
     </head>
     <body>
-
-        
+        <h1 id="main-title">Guide to Shanghai</h1>
+        <h2 id="activities">Activities</h2>
+        <ul>
+            <li>Walk along the Bund and enjoy the skyline.</li>
+            <li>Explore the historic Yu Garden.</li>
+            <li>Visit the observation deck at Shanghai Tower.</li>
+        </ul>
+        <img class="guide-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXQUih4JnqmdTfUYGAYGxyIV5cXgQw8j75oFkEfhVW8r0JjaHFsuPh8KM&s=10" alt="Shanghai city view">
+        <h2>Food</h2>
+        <ul>
+            <li>Soup dumplings (xiaolongbao)</li>
+            <li>Pan-fried pork buns (shengjianbao)</li>
+            <li>Scallion oil noodles</li>
+        </ul>
+        <img class="guide-image food-image" src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=750&q=80" alt="Chinese dumplings">
+        <img class="guide-image food-image" src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=750&q=80" alt="Noodle dish">
     </body>
 </html>
